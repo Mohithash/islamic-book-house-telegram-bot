@@ -95,7 +95,7 @@ class Handler{
   }
 
   public static function editMessage($chat_id, $message_id){    
-	  $url = 'https://api.telegram.org/bot1231979359:AAHJuXLE5nU0QlgAQCl2h3bRCidEeVpktwA/editMessageText';  
+	  $url = 'https://api.telegram.org/bot923486134:AAFdGgmm5zv3iDJC5rGvj_okOALT_HcLTUA/editMessageText';  
 	    $data = array('chat_id'=>$chat_id, 'message_id'=>$message_id, 'text'=>'--------', 'reply_markup'=>'');
 	  $options = array(
 		  'http' => array(
